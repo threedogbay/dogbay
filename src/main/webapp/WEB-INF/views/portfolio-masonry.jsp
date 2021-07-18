@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
 <!DOCTYPE html>
 <html>
   <head>
@@ -24,25 +26,25 @@
         </svg>
       </label>
       <div class="ae-container-fluid rk-topbar">
-        <h1 class="rk-logo"><a href="index.html">urku portfolio<sup>tm</sup></a></h1>
+        <h1 class="rk-logo"><a href="index">urku portfolio<sup>tm</sup></a></h1>
         <nav class="rk-navigation">
           <ul class="rk-menu">
-            <li class="rk-menu__item"><a href="index.html" class="rk-menu__link">Home</a>
+            <li class="rk-menu__item"><a href="index" class="rk-menu__link">Home</a>
             </li>
-            <li class="active rk-menu__item"><a href="portfolio.html" class="rk-menu__link">Portfolio</a>
+            <li class="active rk-menu__item"><a href="portfolio" class="rk-menu__link">Portfolio</a>
             </li>
-            <li class="rk-menu__item"><a href="blog.html" class="rk-menu__link">Blog</a>
+            <li class="rk-menu__item"><a href="blog" class="rk-menu__link">Blog</a>
             </li>
             <li class="rk-menu__item"><a href="#0" class="rk-menu__link">Pages</a>
               <nav class="rk-menu__sub">
                 <ul class="rk-container">
-                  <li class="rk-menu__item"><a href="about.html" class="rk-menu__link">About</a></li>
-                  <li class="rk-menu__item"><a href="documentation.html" class="rk-menu__link">Documentation</a></li>
-                  <li class="rk-menu__item"><a href="design-styles.html" class="rk-menu__link">Design Styles</a></li>
+                  <li class="rk-menu__item"><a href="about" class="rk-menu__link">About</a></li>
+                  <li class="rk-menu__item"><a href="documentation" class="rk-menu__link">Documentation</a></li>
+                  <li class="rk-menu__item"><a href="design-styles" class="rk-menu__link">Design Styles</a></li>
                 </ul>
               </nav>
             </li>
-            <li class="rk-menu__item"><a href="contact.html" class="rk-menu__link">Contact Us</a>
+            <li class="rk-menu__item"><a href="contact" class="rk-menu__link">Contact Us</a>
             </li>
           </ul>
           <form class="rk-search">
@@ -60,65 +62,65 @@
       <section class="ae-container-fluid ae-container-fluid--inner rk-portfolio">
         <div class="au-xs-ta-center au-lg-ta-left">
           <ul class="rk-menu rk-categories-menu">
-            <li class="rk-menu__item"><a href="portfolio.html" class="rk-menu__link">Flex</a>
+            <li class="rk-menu__item"><a href="portfolio" class="rk-menu__link">Flex</a>
             </li>
-            <li class="rk-menu__item"><a href="portfolio-alt.html" class="rk-menu__link">Switch</a>
+            <li class="rk-menu__item"><a href="portfolio-alt" class="rk-menu__link">Switch</a>
             </li>
-            <li class="rk-menu__item"><a href="portfolio-raw.html" class="rk-menu__link">Static</a>
+            <li class="rk-menu__item"><a href="portfolio-raw" class="rk-menu__link">Static</a>
             </li>
-            <li class="active rk-menu__item"><a href="portfolio-masonry.html" class="rk-menu__link">Masonry</a>
+            <li class="active rk-menu__item"><a href="portfolio-masonry" class="rk-menu__link">Masonry</a>
             </li>
           </ul>
         </div>
-        <div class="ae-masonry ae-masonry-md-2 ae-masonry-xl-4"><a href="portfolio-item.html" class="rk-item ae-masonry__item"><img src="assets/img/project-1.jpg" alt="">
+        <div class="ae-masonry ae-masonry-md-2 ae-masonry-xl-4"><a href="portfolio-item" class="rk-item ae-masonry__item"><img src="assets/img/project-1.jpg" alt="">
             <div class="item-meta">
               <h2>Essential Stationery</h2>
               <p>Branding</p>
-            </div></a><a href="portfolio-item.html" class="rk-item ae-masonry__item"><img src="assets/img/project-2.jpg" alt="">
+            </div></a><a href="portfolio-item" class="rk-item ae-masonry__item"><img src="assets/img/project-2.jpg" alt="">
             <div class="item-meta">
               <h2>Pickled Tousled</h2>
               <p>Art Direction</p>
-            </div></a><a href="portfolio-item.html" class="rk-item ae-masonry__item"><img src="assets/img/project-3.jpg" alt="">
+            </div></a><a href="portfolio-item" class="rk-item ae-masonry__item"><img src="assets/img/project-3.jpg" alt="">
             <div class="item-meta">
               <h2>Waistcoat vegan</h2>
               <p>Graphic Design</p>
-            </div></a><a href="portfolio-item.html" class="rk-item ae-masonry__item"><img src="assets/img/project-4.jpg" alt="">
+            </div></a><a href="portfolio-item" class="rk-item ae-masonry__item"><img src="assets/img/project-4.jpg" alt="">
             <div class="item-meta">
               <h2>Tumblr hammock</h2>
               <p>Packaging</p>
-            </div></a><a href="portfolio-item.html" class="rk-item ae-masonry__item"><img src="assets/img/project-5.jpg" alt="">
+            </div></a><a href="portfolio-item" class="rk-item ae-masonry__item"><img src="assets/img/project-5.jpg" alt="">
             <div class="item-meta">
               <h2>Biodiesel etsy</h2>
               <p>Branding</p>
-            </div></a><a href="portfolio-item.html" class="rk-item ae-masonry__item"><img src="assets/img/project-6.jpg" alt="">
+            </div></a><a href="portfolio-item" class="rk-item ae-masonry__item"><img src="assets/img/project-6.jpg" alt="">
             <div class="item-meta">
               <h2>Gentrify artisan</h2>
               <p>Graphic Design</p>
-            </div></a><a href="portfolio-item.html" class="rk-item ae-masonry__item"><img src="assets/img/project-7.jpg" alt="">
+            </div></a><a href="portfolio-item" class="rk-item ae-masonry__item"><img src="assets/img/project-7.jpg" alt="">
             <div class="item-meta">
               <h2>Plaid austin</h2>
               <p>Graphic Design</p>
-            </div></a><a href="portfolio-item.html" class="rk-item ae-masonry__item"><img src="assets/img/project-8.jpg" alt="">
+            </div></a><a href="portfolio-item" class="rk-item ae-masonry__item"><img src="assets/img/project-8.jpg" alt="">
             <div class="item-meta">
               <h2>Trust fund</h2>
               <p>Packaging</p>
-            </div></a><a href="portfolio-item.html" class="rk-item ae-masonry__item"><img src="assets/img/project-9.jpg" alt="">
+            </div></a><a href="portfolio-item" class="rk-item ae-masonry__item"><img src="assets/img/project-9.jpg" alt="">
             <div class="item-meta">
               <h2>Gentrify pork</h2>
               <p>Branding</p>
-            </div></a><a href="portfolio-item.html" class="rk-item ae-masonry__item"><img src="assets/img/project-10.jpg" alt="">
+            </div></a><a href="portfolio-item" class="rk-item ae-masonry__item"><img src="assets/img/project-10.jpg" alt="">
             <div class="item-meta">
               <h2>Waistcoat ugh</h2>
               <p>UI/UX</p>
-            </div></a><a href="portfolio-item.html" class="rk-item ae-masonry__item"><img src="assets/img/project-11.jpg" alt="">
+            </div></a><a href="portfolio-item" class="rk-item ae-masonry__item"><img src="assets/img/project-11.jpg" alt="">
             <div class="item-meta">
               <h2>Deep v kogi</h2>
               <p>Graphic Design</p>
-            </div></a><a href="portfolio-item.html" class="rk-item ae-masonry__item"><img src="assets/img/project-12.jpg" alt="">
+            </div></a><a href="portfolio-item" class="rk-item ae-masonry__item"><img src="assets/img/project-12.jpg" alt="">
             <div class="item-meta">
               <h2>Venmo trust</h2>
               <p>Packaging</p>
-            </div></a><a href="portfolio-item.html" class="rk-item ae-masonry__item"><img src="assets/img/project-13.jpg" alt="">
+            </div></a><a href="portfolio-item" class="rk-item ae-masonry__item"><img src="assets/img/project-13.jpg" alt="">
             <div class="item-meta">
               <h2>Venmo trust</h2>
               <p>Ui/UX</p>
@@ -130,14 +132,14 @@
       <div class="ae-grid ae-grid--collapse">
         <div class="ae-grid__item item-lg-4 au-xs-ta-center au-lg-ta-left">
           <ul class="rk-menu rk-footer-menu">
-            <li class="rk-menu__item"><a href="about.html" class="rk-menu__link">About</a>
+            <li class="rk-menu__item"><a href="about" class="rk-menu__link">About</a>
             </li>
-            <li class="rk-menu__item"><a href="documentation.html" class="rk-menu__link">Docs</a>
+            <li class="rk-menu__item"><a href="documentation" class="rk-menu__link">Docs</a>
             </li>
-            <li class="rk-menu__item"><a href="contact.html" class="rk-menu__link">Contact</a>
+            <li class="rk-menu__item"><a href="contact" class="rk-menu__link">Contact</a>
             </li>
           </ul>
-          <p class="rk-footer__text rk-footer__copy "> <span class="ae-u-bold">© </span><span class="ae-u-bolder">2015 URKU PORTFOLIO </span>All Right Reserved.</p>
+          <p class="rk-footer__text rk-footer__copy "> <span class="ae-u-bold">Â© </span><span class="ae-u-bolder">2015 URKU PORTFOLIO </span>All Right Reserved.</p>
         </div>
         <div class="ae-grid__item item-lg-4 au-xs-ta-center"><a href="#0" class="rk-social-btn ">
             <svg>

@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
 <!DOCTYPE html>
 <html>
   <head>
@@ -24,33 +26,33 @@
         </svg>
       </label>
       <div class="ae-container-fluid rk-topbar">
-        <h1 class="rk-logo"><a href="index.html">urku portfolio<sup>tm</sup></a></h1>
+        <h1 class="rk-logo"><a href="index">urku portfolio<sup>tm</sup></a></h1>
         <nav class="rk-navigation">
           <ul class="rk-menu">
-            <li class="rk-menu__item"><a href="index.html" class="rk-menu__link">Home</a>
+            <li class="rk-menu__item"><a href="index" class="rk-menu__link">Home</a>
             </li>
-            <li class="rk-menu__item"><a href="portfolio.html" class="rk-menu__link">Portfolio</a>
+            <li class="rk-menu__item"><a href="portfolio" class="rk-menu__link">Portfolio</a>
               <nav class="rk-menu__sub">
                 <ul class="rk-container">
-                  <li class="rk-menu__item"><a href="portfolio.html" class="rk-menu__link">Flex</a></li>
-                  <li class="rk-menu__item"><a href="portfolio-alt.html" class="rk-menu__link">Switch</a></li>
-                  <li class="rk-menu__item"><a href="portfolio-raw.html" class="rk-menu__link">Static</a></li>
-                  <li class="rk-menu__item"><a href="portfolio-masonry.html" class="rk-menu__link">Masonry</a></li>
+                  <li class="rk-menu__item"><a href="portfolio" class="rk-menu__link">Flex</a></li>
+                  <li class="rk-menu__item"><a href="portfolio-alt" class="rk-menu__link">Switch</a></li>
+                  <li class="rk-menu__item"><a href="portfolio-raw" class="rk-menu__link">Static</a></li>
+                  <li class="rk-menu__item"><a href="portfolio-masonry" class="rk-menu__link">Masonry</a></li>
                 </ul>
               </nav>
             </li>
-            <li class="rk-menu__item"><a href="blog.html" class="rk-menu__link">Blog</a>
+            <li class="rk-menu__item"><a href="blog" class="rk-menu__link">Blog</a>
             </li>
             <li class="active rk-menu__item"><a href="#0" class="rk-menu__link">Pages</a>
               <nav class="rk-menu__sub">
                 <ul class="rk-container">
-                  <li class="rk-menu__item"><a href="about.html" class="rk-menu__link">About</a></li>
-                  <li class="rk-menu__item"><a href="documentation.html" class="rk-menu__link">Documentation</a></li>
-                  <li class="rk-menu__item"><a href="design-styles.html" class="rk-menu__link">Design Styles</a></li>
+                  <li class="rk-menu__item"><a href="about" class="rk-menu__link">About</a></li>
+                  <li class="rk-menu__item"><a href="documentation" class="rk-menu__link">Documentation</a></li>
+                  <li class="rk-menu__item"><a href="design-styles" class="rk-menu__link">Design Styles</a></li>
                 </ul>
               </nav>
             </li>
-            <li class="rk-menu__item"><a href="contact.html" class="rk-menu__link">Contact Us</a>
+            <li class="rk-menu__item"><a href="contact" class="rk-menu__link">Contact Us</a>
             </li>
           </ul>
           <form class="rk-search">
@@ -103,7 +105,7 @@
           <p class="au-lh-3">Nemo enim ipsam voluptatem quia voluptas</p>
         </div>
       </div>
-      <p class="au-flex au-pt-4 group-buttons"><a href="portfolio.html" class="au-mt-4 arrow-button arrow-button--right arrow-button--out">View Our Portfolio<span class="arrow-cont">
+      <p class="au-flex au-pt-4 group-buttons"><a href="portfolio" class="au-mt-4 arrow-button arrow-button--right arrow-button--out">View Our Portfolio<span class="arrow-cont">
             <svg>
               <use xlink:href="assets/img/symbols.svg#arrow"></use>
             </svg></span></a></p>
@@ -112,11 +114,11 @@
       <div class="ae-grid ae-grid--collapse">
         <div class="ae-grid__item item-lg-4 au-xs-ta-center au-lg-ta-left">
           <ul class="rk-menu rk-footer-menu">
-            <li class="rk-menu__item"><a href="about.html" class="rk-menu__link">About</a>
+            <li class="rk-menu__item"><a href="about" class="rk-menu__link">About</a>
             </li>
-            <li class="rk-menu__item"><a href="documentation.html" class="rk-menu__link">Docs</a>
+            <li class="rk-menu__item"><a href="documentation" class="rk-menu__link">Docs</a>
             </li>
-            <li class="rk-menu__item"><a href="contact.html" class="rk-menu__link">Contact</a>
+            <li class="rk-menu__item"><a href="contact" class="rk-menu__link">Contact</a>
             </li>
           </ul>
           <p class="rk-footer__text rk-footer__copy "> <span class="ae-u-bold">© </span><span class="ae-u-bolder">2015 URKU PORTFOLIO </span>All Right Reserved.</p>

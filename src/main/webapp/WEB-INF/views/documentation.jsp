@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
 <!DOCTYPE html>
 <html>
   <head>
@@ -24,33 +26,33 @@
         </svg>
       </label>
       <div class="ae-container-fluid rk-topbar">
-        <h1 class="rk-logo"><a href="index.html">urku portfolio<sup>tm</sup></a></h1>
+        <h1 class="rk-logo"><a href="index.jsp">urku portfolio<sup>tm</sup></a></h1>
         <nav class="rk-navigation">
           <ul class="rk-menu">
-            <li class="rk-menu__item"><a href="index.html" class="rk-menu__link">Home</a>
+            <li class="rk-menu__item"><a href="index.jsp" class="rk-menu__link">Home</a>
             </li>
-            <li class="rk-menu__item"><a href="portfolio.html" class="rk-menu__link">Portfolio</a>
+            <li class="rk-menu__item"><a href="portfolio.jsp" class="rk-menu__link">Portfolio</a>
               <nav class="rk-menu__sub">
                 <ul class="rk-container">
-                  <li class="rk-menu__item"><a href="portfolio.html" class="rk-menu__link">Flex</a></li>
-                  <li class="rk-menu__item"><a href="portfolio-alt.html" class="rk-menu__link">Switch</a></li>
-                  <li class="rk-menu__item"><a href="portfolio-raw.html" class="rk-menu__link">Static</a></li>
-                  <li class="rk-menu__item"><a href="portfolio-masonry.html" class="rk-menu__link">Masonry</a></li>
+                  <li class="rk-menu__item"><a href="portfolio.jsp" class="rk-menu__link">Flex</a></li>
+                  <li class="rk-menu__item"><a href="portfolio-alt.jsp" class="rk-menu__link">Switch</a></li>
+                  <li class="rk-menu__item"><a href="portfolio-raw.jsp" class="rk-menu__link">Static</a></li>
+                  <li class="rk-menu__item"><a href="portfolio-masonry.jsp" class="rk-menu__link">Masonry</a></li>
                 </ul>
               </nav>
             </li>
-            <li class="rk-menu__item"><a href="blog.html" class="rk-menu__link">Blog</a>
+            <li class="rk-menu__item"><a href="blog.jsp" class="rk-menu__link">Blog</a>
             </li>
             <li class="active rk-menu__item"><a href="#0" class="rk-menu__link">Pages</a>
               <nav class="rk-menu__sub">
                 <ul class="rk-container">
-                  <li class="rk-menu__item"><a href="about.html" class="rk-menu__link">About</a></li>
-                  <li class="rk-menu__item"><a href="documentation.html" class="rk-menu__link">Documentation</a></li>
-                  <li class="rk-menu__item"><a href="design-styles.html" class="rk-menu__link">Design Styles</a></li>
+                  <li class="rk-menu__item"><a href="about.jsp" class="rk-menu__link">About</a></li>
+                  <li class="rk-menu__item"><a href="documentation.jsp" class="rk-menu__link">Documentation</a></li>
+                  <li class="rk-menu__item"><a href="design-styles.jsp" class="rk-menu__link">Design Styles</a></li>
                 </ul>
               </nav>
             </li>
-            <li class="rk-menu__item"><a href="contact.html" class="rk-menu__link">Contact Us</a>
+            <li class="rk-menu__item"><a href="contact.jsp" class="rk-menu__link">Contact Us</a>
             </li>
           </ul>
           <form class="rk-search">
@@ -117,19 +119,19 @@
             </h2>
             <h3 id="static-items"><a href="#static-items" class="hash-link">Static Items</a>
             </h3>
-            <p>You can create a static portfolio page by using our grid system <a href="http://themes-pixeden.com/aurora-kit/grid.html" class="au-underline">Aurora</a>, creating the grid structure with <code>ae-grid</code>, adding your items with <code>ae-grid__item</code>and <a href="http://themes-pixeden.com/aurora-kit/grid.html" class="au-underline">customizing</a> it as you want. </p>
+            <p>You can create a static portfolio page by using our grid system <a href="http://themes-pixeden.com/aurora-kit/grid.jsp" class="au-underline">Aurora</a>, creating the grid structure with <code>ae-grid</code>, adding your items with <code>ae-grid__item</code>and <a href="http://themes-pixeden.com/aurora-kit/grid.jsp" class="au-underline">customizing</a> it as you want. </p>
             <div class="ae-grid">
-              <div class="ae-grid__item item-lg-4"><a href="portfolio-item.html" class="rk-item"><img src="assets/img/project-1.jpg" alt="">
+              <div class="ae-grid__item item-lg-4"><a href="portfolio-item.jsp" class="rk-item"><img src="assets/img/project-1.jpg" alt="">
                   <div class="item-meta">
                     <h2>Essential Stationery</h2>
                     <p>Branding</p>
                   </div></a></div>
-              <div class="ae-grid__item item-lg-4"><a href="portfolio-item.html" class="rk-item"><img src="assets/img/project-4.jpg" alt="">
+              <div class="ae-grid__item item-lg-4"><a href="portfolio-item.jsp" class="rk-item"><img src="assets/img/project-4.jpg" alt="">
                   <div class="item-meta">
                     <h2>Tumblr hammock</h2>
                     <p>Packaging</p>
                   </div></a></div>
-              <div class="ae-grid__item item-lg-4"><a href="portfolio-item.html" class="rk-item"><img src="assets/img/project-5.jpg" alt="">
+              <div class="ae-grid__item item-lg-4"><a href="portfolio-item.jsp" class="rk-item"><img src="assets/img/project-5.jpg" alt="">
                   <div class="item-meta">
                     <h2>Biodiesel etsy</h2>
                     <p>Branding</p>
@@ -159,20 +161,20 @@
           <div class="ae-grid__item item-lg-12">
             <h3 id="masonry-items"><a href="#masonry-items" class="hash-link">Masonry Items</a>
             </h3>
-            <p>You can also use the <a href="http://themes-pixeden.com/aurora-kit/grid.html#masonry-grid" class="au-underline">Masonry</a> grid style of <a href="http://themes-pixeden.com/aurora-kit/grid.html" class="au-underline">Aurora</a>. Create a <code>ae-masonry</code> container and add each item with the class<code>ae-masonry__item</code>. You can also set the number of columns for each viewport.</p>
-            <div class="ae-masonry ae-masonry-md-2"><a href="portfolio-item.html" class="rk-item ae-masonry__item"><img src="assets/img/project-1.jpg" alt="">
+            <p>You can also use the <a href="http://themes-pixeden.com/aurora-kit/grid.jsp#masonry-grid" class="au-underline">Masonry</a> grid style of <a href="http://themes-pixeden.com/aurora-kit/grid.jsp" class="au-underline">Aurora</a>. Create a <code>ae-masonry</code> container and add each item with the class<code>ae-masonry__item</code>. You can also set the number of columns for each viewport.</p>
+            <div class="ae-masonry ae-masonry-md-2"><a href="portfolio-item.jsp" class="rk-item ae-masonry__item"><img src="assets/img/project-1.jpg" alt="">
                 <div class="item-meta">
                   <h2>Essential Stationery</h2>
                   <p>Branding</p>
-                </div></a><a href="portfolio-item.html" class="rk-item ae-masonry__item"><img src="assets/img/project-2.jpg" alt="">
+                </div></a><a href="portfolio-item.jsp" class="rk-item ae-masonry__item"><img src="assets/img/project-2.jpg" alt="">
                 <div class="item-meta">
                   <h2>Pickled Tousled</h2>
                   <p>Art Direction</p>
-                </div></a><a href="portfolio-item.html" class="rk-item ae-masonry__item"><img src="assets/img/project-3.jpg" alt="">
+                </div></a><a href="portfolio-item.jsp" class="rk-item ae-masonry__item"><img src="assets/img/project-3.jpg" alt="">
                 <div class="item-meta">
                   <h2>Waistcoat vegan</h2>
                   <p>Graphic Design</p>
-                </div></a><a href="portfolio-item.html" class="rk-item ae-masonry__item"><img src="assets/img/project-4.jpg" alt="">
+                </div></a><a href="portfolio-item.jsp" class="rk-item ae-masonry__item"><img src="assets/img/project-4.jpg" alt="">
                 <div class="item-meta">
                   <h2>Tumblr hammock</h2>
                   <p>Packaging</p>
@@ -202,15 +204,15 @@
             <p>The special portfolio items we are using in Urku Portfolio adapt in a <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Using_CSS_flexible_boxes" target="_balnk" class="au-underline">flexible</a> way to the viewport, alowing them for instance to resize to new <a href="#switch-layout" class="au-underline">layout switches</a>. Just add the class <code>rk-item--flex </code> along the <code>rk-item</code> class on each items, inside the flex container with the <code>rk-portfolio__items</code> class.<br>Those flexible items are implemented as <code>background-image</code> with incremental numbered classes like <code>item-{number}</code> to set the specific <code>background-image</code> for each item.</p>
           </div>
         </div>
-        <div class="rk-portfolio__items"><a href="portfolio-item.html" class="item-1 rk-item rk-item--flex"><span class="item-meta">
+        <div class="rk-portfolio__items"><a href="portfolio-item.jsp" class="item-1 rk-item rk-item--flex"><span class="item-meta">
               <h2>Essential Stationery</h2>
-              <p>Branding</p></span></a><a href="portfolio-item.html" class="item-2 rk-item rk-item--flex"><span class="item-meta">
+              <p>Branding</p></span></a><a href="portfolio-item.jsp" class="item-2 rk-item rk-item--flex"><span class="item-meta">
               <h2>Pickled Tousled</h2>
-              <p>Art Direction</p></span></a><a href="portfolio-item.html" class="item-3 rk-item rk-item--flex"><span class="item-meta">
+              <p>Art Direction</p></span></a><a href="portfolio-item.jsp" class="item-3 rk-item rk-item--flex"><span class="item-meta">
               <h2>Waistcoat vegan</h2>
-              <p>Graphic Design</p></span></a><a href="portfolio-item.html" class="item-4 rk-item rk-item--flex"><span class="item-meta">
+              <p>Graphic Design</p></span></a><a href="portfolio-item.jsp" class="item-4 rk-item rk-item--flex"><span class="item-meta">
               <h2>Tumblr hammock</h2>
-              <p>Packaging</p></span></a><a href="portfolio-item.html" class="item-5 rk-item rk-item--flex"><span class="item-meta">
+              <p>Packaging</p></span></a><a href="portfolio-item.jsp" class="item-5 rk-item rk-item--flex"><span class="item-meta">
               <h2>Biodiesel etsy</h2>
               <p>Branding</p></span></a>
         </div>
@@ -514,7 +516,7 @@
             </h2>
             <h5 id="hero-image"><a href="#hero-image" class="hash-link">Hero Image</a>
             </h5>
-            <p>To create a dynamic flexible layout, the section with the class <code>rk-portfolio-cover</code> will automatically cover all the <code>height</code> of the viewport until the end user scrolls down.<br> You can see an example in an inner page <a href="portfolio-item.html" class="au-underline">here</a>.<br>You can also use a helper class <code>item-inside__meta--contrast</code> that adds a subtle opacity layer between the image and the Item Title to augment the legibility of the text if needed.</p>
+            <p>To create a dynamic flexible layout, the section with the class <code>rk-portfolio-cover</code> will automatically cover all the <code>height</code> of the viewport until the end user scrolls down.<br> You can see an example in an inner page <a href="portfolio-item.jsp" class="au-underline">here</a>.<br>You can also use a helper class <code>item-inside__meta--contrast</code> that adds a subtle opacity layer between the image and the Item Title to augment the legibility of the text if needed.</p>
           </div>
         </div>
         <div class="ae-grid au-xs-ptp-1">
@@ -533,8 +535,8 @@
           <div class="ae-grid__item item-lg-12">
             <h5 id="smart-styles"><a href="#smart-styles" class="hash-link">Smart Styles</a>
             </h5>
-            <p>We created smart design styles that lets you display your text and image while maintaining vertical rhythm and white spaces to create precise and harmonious responsive layouts.<br><a href="design-styles.html" class="au-underline">Check them out</a> in this page with ready to use snippets.</p>
-            <div class="group-buttons"><a href="design-styles.html" class="arrow-button arrow-button--center">Design Styles<span class="arrow-cont">
+            <p>We created smart design styles that lets you display your text and image while maintaining vertical rhythm and white spaces to create precise and harmonious responsive layouts.<br><a href="design-styles.jsp" class="au-underline">Check them out</a> in this page with ready to use snippets.</p>
+            <div class="group-buttons"><a href="design-styles.jsp" class="arrow-button arrow-button--center">Design Styles<span class="arrow-cont">
                   <svg>
                     <use xlink:href="assets/img/symbols.svg#arrow"></use>
                   </svg></span></a></div>
@@ -677,7 +679,7 @@
     &lt;/svg&gt;
   &lt;/label&gt;
   &lt;div class=&quot;rk-container rk-topbar&quot;&gt;
-    &lt;h1 class=&quot;rk-logo&quot;&gt;&lt;a href=&quot;index.html&quot;&gt;urku portfolio&lt;sup&gt;tm&lt;/sup&gt;&lt;/a&gt;&lt;/h1&gt;
+    &lt;h1 class=&quot;rk-logo&quot;&gt;&lt;a href=&quot;index.jsp&quot;&gt;urku portfolio&lt;sup&gt;tm&lt;/sup&gt;&lt;/a&gt;&lt;/h1&gt;
     &lt;nav class=&quot;rk-navigation&quot;&gt;
       &lt;ul class=&quot;rk-menu&quot;&gt;
         &lt;li class=&quot;rk-menu__item&quot;&gt;
@@ -741,7 +743,7 @@ hover.init({
         </div>
         <div class="ae-grid au-xs-ptp-1">
           <div class="ae-grid__item item-lg-8 item-lg--offset-2">
-            <div class="group-buttons"><a href="portfolio-hover.html" class="arrow-button arrow-button--center">View Examples
+            <div class="group-buttons"><a href="portfolio-hover.jsp" class="arrow-button arrow-button--center">View Examples
                 <svg>
                   <use xlink:href="assets/img/symbols.svg#arrow"></use>
                 </svg></a></div>
@@ -753,14 +755,14 @@ hover.init({
       <div class="ae-grid ae-grid--collapse">
         <div class="ae-grid__item item-lg-4 au-xs-ta-center au-lg-ta-left">
           <ul class="rk-menu rk-footer-menu">
-            <li class="rk-menu__item"><a href="about.html" class="rk-menu__link">About</a>
+            <li class="rk-menu__item"><a href="about.jsp" class="rk-menu__link">About</a>
             </li>
-            <li class="rk-menu__item"><a href="documentation.html" class="rk-menu__link">Docs</a>
+            <li class="rk-menu__item"><a href="documentation.jsp" class="rk-menu__link">Docs</a>
             </li>
-            <li class="rk-menu__item"><a href="contact.html" class="rk-menu__link">Contact</a>
+            <li class="rk-menu__item"><a href="contact.jsp" class="rk-menu__link">Contact</a>
             </li>
           </ul>
-          <p class="rk-footer__text rk-footer__copy "> <span class="ae-u-bold">© </span><span class="ae-u-bolder">2015 URKU PORTFOLIO </span>All Right Reserved.</p>
+          <p class="rk-footer__text rk-footer__copy "> <span class="ae-u-bold">Â© </span><span class="ae-u-bolder">2015 URKU PORTFOLIO </span>All Right Reserved.</p>
         </div>
         <div class="ae-grid__item item-lg-4 au-xs-ta-center"><a href="#0" class="rk-social-btn ">
             <svg>

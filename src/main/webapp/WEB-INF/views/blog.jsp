@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
 <!DOCTYPE html>
 <html>
   <head>
@@ -24,33 +26,33 @@
         </svg>
       </label>
       <div class="ae-container-fluid rk-topbar">
-        <h1 class="rk-logo"><a href="index.html">urku portfolio<sup>tm</sup></a></h1>
+        <h1 class="rk-logo"><a href="index">urku portfolio<sup>tm</sup></a></h1>
         <nav class="rk-navigation">
           <ul class="rk-menu">
-            <li class="rk-menu__item"><a href="index.html" class="rk-menu__link">Home</a>
+            <li class="rk-menu__item"><a href="index" class="rk-menu__link">Home</a>
             </li>
-            <li class="rk-menu__item"><a href="portfolio.html" class="rk-menu__link">Portfolio</a>
+            <li class="rk-menu__item"><a href="portfolio" class="rk-menu__link">Portfolio</a>
               <nav class="rk-menu__sub">
                 <ul class="rk-container">
-                  <li class="rk-menu__item"><a href="portfolio.html" class="rk-menu__link">Flex</a></li>
-                  <li class="rk-menu__item"><a href="portfolio-alt.html" class="rk-menu__link">Switch</a></li>
-                  <li class="rk-menu__item"><a href="portfolio-raw.html" class="rk-menu__link">Static</a></li>
-                  <li class="rk-menu__item"><a href="portfolio-masonry.html" class="rk-menu__link">Masonry</a></li>
+                  <li class="rk-menu__item"><a href="portfolio" class="rk-menu__link">Flex</a></li>
+                  <li class="rk-menu__item"><a href="portfolio-alt" class="rk-menu__link">Switch</a></li>
+                  <li class="rk-menu__item"><a href="portfolio-raw" class="rk-menu__link">Static</a></li>
+                  <li class="rk-menu__item"><a href="portfolio-masonry" class="rk-menu__link">Masonry</a></li>
                 </ul>
               </nav>
             </li>
-            <li class="active rk-menu__item"><a href="blog.html" class="rk-menu__link">Blog</a>
+            <li class="active rk-menu__item"><a href="blog" class="rk-menu__link">Blog</a>
             </li>
             <li class="rk-menu__item"><a href="#0" class="rk-menu__link">Pages</a>
               <nav class="rk-menu__sub">
                 <ul class="rk-container">
-                  <li class="rk-menu__item"><a href="about.html" class="rk-menu__link">About</a></li>
-                  <li class="rk-menu__item"><a href="documentation.html" class="rk-menu__link">Documentation</a></li>
-                  <li class="rk-menu__item"><a href="design-styles.html" class="rk-menu__link">Design Styles</a></li>
+                  <li class="rk-menu__item"><a href="about" class="rk-menu__link">About</a></li>
+                  <li class="rk-menu__item"><a href="documentation" class="rk-menu__link">Documentation</a></li>
+                  <li class="rk-menu__item"><a href="design-styles" class="rk-menu__link">Design Styles</a></li>
                 </ul>
               </nav>
             </li>
-            <li class="rk-menu__item"><a href="contact.html" class="rk-menu__link">Contact Us</a>
+            <li class="rk-menu__item"><a href="contact" class="rk-menu__link">Contact Us</a>
             </li>
           </ul>
           <form class="rk-search">
@@ -100,18 +102,18 @@
           <div class="rk-blog__item">
             <div class="post-img post-1 rk-landscape-alt rk-tosquare">
               <div class="item-meta">
-                <p><a href="blog-post.html" class="arrow-button">Read More<span class="arrow-cont">
+                <p><a href="blog-post" class="arrow-button">Read More<span class="arrow-cont">
                       <svg>
                         <use xlink:href="assets/img/symbols.svg#arrow"></use>
                       </svg></span></a></p>
               </div>
             </div>
             <div class="blog-info">
-              <h2 class="blog-info__title"> <a href="blog-post.html">All elements of a Post</a></h2>
-              <h5 class="blog-info__author">By <a href="blog-post.html" class="ae-u-bolder">Pixeden</a></h5>
+              <h2 class="blog-info__title"> <a href="blog-post">All elements of a Post</a></h2>
+              <h5 class="blog-info__author">By <a href="blog-post" class="ae-u-bolder">Pixeden</a></h5>
               <p class="blog-info__excerpt">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor <span>in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</span></p>
             </div>
-            <div class="blog-meta"><a href="blog-post.html" class="ae-u-bolder blog-meta__comments">3 Comments</a><span class="ae-kappa ae-u-bold blog-meta__date">August, 12 2015</span><a href="#0" class="arrow-button blog-meta__read-more">Read More<span class="arrow-cont">
+            <div class="blog-meta"><a href="blog-post" class="ae-u-bolder blog-meta__comments">3 Comments</a><span class="ae-kappa ae-u-bold blog-meta__date">August, 12 2015</span><a href="#0" class="arrow-button blog-meta__read-more">Read More<span class="arrow-cont">
                   <svg>
                     <use xlink:href="assets/img/symbols.svg#arrow"></use>
                   </svg></span></a></div>
@@ -119,18 +121,18 @@
           <div class="rk-blog__item">
             <div class="post-img post-5 rk-landscape-alt rk-toportrait">
               <div class="item-meta">
-                <p><a href="blog-post.html" class="arrow-button">Read More<span class="arrow-cont">
+                <p><a href="blog-post" class="arrow-button">Read More<span class="arrow-cont">
                       <svg>
                         <use xlink:href="assets/img/symbols.svg#arrow"></use>
                       </svg></span></a></p>
               </div>
             </div>
             <div class="blog-info">
-              <h2 class="blog-info__title"> <a href="blog-post.html"> Free and Premium graphic</a></h2>
-              <h5 class="blog-info__author">By <a href="blog-post.html" class="ae-u-bolder">Pixeden</a></h5>
+              <h2 class="blog-info__title"> <a href="blog-post"> Free and Premium graphic</a></h2>
+              <h5 class="blog-info__author">By <a href="blog-post" class="ae-u-bolder">Pixeden</a></h5>
               <p class="blog-info__excerpt">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit <span>laboriosam, nisi ut aliquid ex ea commodi consequatur</span></p>
             </div>
-            <div class="blog-meta"><a href="blog-post.html" class="ae-u-bolder blog-meta__comments">5 Comments</a><span class="ae-kappa ae-u-bold blog-meta__date">August, 08 2015</span><a href="#0" class="arrow-button blog-meta__read-more">Read More<span class="arrow-cont">
+            <div class="blog-meta"><a href="blog-post" class="ae-u-bolder blog-meta__comments">5 Comments</a><span class="ae-kappa ae-u-bold blog-meta__date">August, 08 2015</span><a href="#0" class="arrow-button blog-meta__read-more">Read More<span class="arrow-cont">
                   <svg>
                     <use xlink:href="assets/img/symbols.svg#arrow"></use>
                   </svg></span></a></div>
@@ -138,18 +140,18 @@
           <div class="rk-blog__item">
             <div class="post-img post-7 rk-landscape-alt rk-tosquare">
               <div class="item-meta">
-                <p><a href="blog-post.html" class="arrow-button">Read More<span class="arrow-cont">
+                <p><a href="blog-post" class="arrow-button">Read More<span class="arrow-cont">
                       <svg>
                         <use xlink:href="assets/img/symbols.svg#arrow"></use>
                       </svg></span></a></p>
               </div>
             </div>
             <div class="blog-info">
-              <h2 class="blog-info__title"> <a href="blog-post.html">Only Images Sistem 02</a></h2>
-              <h5 class="blog-info__author">By <a href="blog-post.html" class="ae-u-bolder">Pixeden</a></h5>
+              <h2 class="blog-info__title"> <a href="blog-post">Only Images Sistem 02</a></h2>
+              <h5 class="blog-info__author">By <a href="blog-post" class="ae-u-bolder">Pixeden</a></h5>
               <p class="blog-info__excerpt"></p>
             </div>
-            <div class="blog-meta"><a href="blog-post.html" class="ae-u-bolder blog-meta__comments">3 Comments</a><span class="ae-kappa ae-u-bold blog-meta__date">August, 04 2015</span><a href="#0" class="arrow-button blog-meta__read-more">Read More<span class="arrow-cont">
+            <div class="blog-meta"><a href="blog-post" class="ae-u-bolder blog-meta__comments">3 Comments</a><span class="ae-kappa ae-u-bold blog-meta__date">August, 04 2015</span><a href="#0" class="arrow-button blog-meta__read-more">Read More<span class="arrow-cont">
                   <svg>
                     <use xlink:href="assets/img/symbols.svg#arrow"></use>
                   </svg></span></a></div>
@@ -157,18 +159,18 @@
           <div class="rk-blog__item">
             <div class="post-img post-6 rk-landscape-alt rk-toportrait">
               <div class="item-meta">
-                <p><a href="blog-post.html" class="arrow-button">Read More<span class="arrow-cont">
+                <p><a href="blog-post" class="arrow-button">Read More<span class="arrow-cont">
                       <svg>
                         <use xlink:href="assets/img/symbols.svg#arrow"></use>
                       </svg></span></a></p>
               </div>
             </div>
             <div class="blog-info">
-              <h2 class="blog-info__title"> <a href="blog-post.html">Sublimmme Portfolio</a></h2>
-              <h5 class="blog-info__author">By <a href="blog-post.html" class="ae-u-bolder">Pixeden</a></h5>
+              <h2 class="blog-info__title"> <a href="blog-post">Sublimmme Portfolio</a></h2>
+              <h5 class="blog-info__author">By <a href="blog-post" class="ae-u-bolder">Pixeden</a></h5>
               <p class="blog-info__excerpt">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et <span>quasi architecto beatae vitae dicta sunt explicabo. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</span></p>
             </div>
-            <div class="blog-meta"><a href="blog-post.html" class="ae-u-bolder blog-meta__comments">2 Comments</a><span class="ae-kappa ae-u-bold blog-meta__date">August, 10 2015</span><a href="#0" class="arrow-button blog-meta__read-more">Read More<span class="arrow-cont">
+            <div class="blog-meta"><a href="blog-post" class="ae-u-bolder blog-meta__comments">2 Comments</a><span class="ae-kappa ae-u-bold blog-meta__date">August, 10 2015</span><a href="#0" class="arrow-button blog-meta__read-more">Read More<span class="arrow-cont">
                   <svg>
                     <use xlink:href="assets/img/symbols.svg#arrow"></use>
                   </svg></span></a></div>
@@ -176,18 +178,18 @@
           <div class="rk-blog__item">
             <div class="post-img post-2 rk-landscape-alt rk-tosquare">
               <div class="item-meta">
-                <p><a href="blog-post.html" class="arrow-button">Read More<span class="arrow-cont">
+                <p><a href="blog-post" class="arrow-button">Read More<span class="arrow-cont">
                       <svg>
                         <use xlink:href="assets/img/symbols.svg#arrow"></use>
                       </svg></span></a></p>
               </div>
             </div>
             <div class="blog-info">
-              <h2 class="blog-info__title"> <a href="blog-post.html">Gallery Slider Sistem</a></h2>
-              <h5 class="blog-info__author">By <a href="blog-post.html" class="ae-u-bolder">Pixeden</a></h5>
+              <h2 class="blog-info__title"> <a href="blog-post">Gallery Slider Sistem</a></h2>
+              <h5 class="blog-info__author">By <a href="blog-post" class="ae-u-bolder">Pixeden</a></h5>
               <p class="blog-info__excerpt">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut <span>odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem</span></p>
             </div>
-            <div class="blog-meta"><a href="blog-post.html" class="ae-u-bolder blog-meta__comments">2 Comments</a><span class="ae-kappa ae-u-bold blog-meta__date">August, 09 2015</span><a href="#0" class="arrow-button blog-meta__read-more">Read More<span class="arrow-cont">
+            <div class="blog-meta"><a href="blog-post" class="ae-u-bolder blog-meta__comments">2 Comments</a><span class="ae-kappa ae-u-bold blog-meta__date">August, 09 2015</span><a href="#0" class="arrow-button blog-meta__read-more">Read More<span class="arrow-cont">
                   <svg>
                     <use xlink:href="assets/img/symbols.svg#arrow"></use>
                   </svg></span></a></div>
@@ -195,18 +197,18 @@
           <div class="rk-blog__item">
             <div class="post-img post-8 rk-landscape-alt rk-tosquare">
               <div class="item-meta">
-                <p><a href="blog-post.html" class="arrow-button">Read More<span class="arrow-cont">
+                <p><a href="blog-post" class="arrow-button">Read More<span class="arrow-cont">
                       <svg>
                         <use xlink:href="assets/img/symbols.svg#arrow"></use>
                       </svg></span></a></p>
               </div>
             </div>
             <div class="blog-info">
-              <h2 class="blog-info__title"> <a href="blog-post.html">Design and Web resources</a></h2>
-              <h5 class="blog-info__author">By <a href="blog-post.html" class="ae-u-bolder">Pixeden</a></h5>
+              <h2 class="blog-info__title"> <a href="blog-post">Design and Web resources</a></h2>
+              <h5 class="blog-info__author">By <a href="blog-post" class="ae-u-bolder">Pixeden</a></h5>
               <p class="blog-info__excerpt">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Sed ut perspiciatis unde omnis iste</p>
             </div>
-            <div class="blog-meta"><a href="blog-post.html" class="ae-u-bolder blog-meta__comments">No Comment</a><span class="ae-kappa ae-u-bold blog-meta__date">August, 02 2015</span><a href="#0" class="arrow-button blog-meta__read-more">Read More<span class="arrow-cont">
+            <div class="blog-meta"><a href="blog-post" class="ae-u-bolder blog-meta__comments">No Comment</a><span class="ae-kappa ae-u-bold blog-meta__date">August, 02 2015</span><a href="#0" class="arrow-button blog-meta__read-more">Read More<span class="arrow-cont">
                   <svg>
                     <use xlink:href="assets/img/symbols.svg#arrow"></use>
                   </svg></span></a></div>
@@ -214,18 +216,18 @@
           <div class="rk-blog__item">
             <div class="post-img post-3 rk-landscape-alt rk-tosquare">
               <div class="item-meta">
-                <p><a href="blog-post.html" class="arrow-button">Read More<span class="arrow-cont">
+                <p><a href="blog-post" class="arrow-button">Read More<span class="arrow-cont">
                       <svg>
                         <use xlink:href="assets/img/symbols.svg#arrow"></use>
                       </svg></span></a></p>
               </div>
             </div>
             <div class="blog-info">
-              <h2 class="blog-info__title"> <a href="blog-post.html">Video System</a></h2>
-              <h5 class="blog-info__author">By <a href="blog-post.html" class="ae-u-bolder">Pixeden</a></h5>
+              <h2 class="blog-info__title"> <a href="blog-post">Video System</a></h2>
+              <h5 class="blog-info__author">By <a href="blog-post" class="ae-u-bolder">Pixeden</a></h5>
               <p class="blog-info__excerpt">Qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut <span>aliquid ex ea commodi consequatur</span></p>
             </div>
-            <div class="blog-meta"><a href="blog-post.html" class="ae-u-bolder blog-meta__comments">2 Comments</a><span class="ae-kappa ae-u-bold blog-meta__date">August, 04 2015</span><a href="#0" class="arrow-button blog-meta__read-more">Read More<span class="arrow-cont">
+            <div class="blog-meta"><a href="blog-post" class="ae-u-bolder blog-meta__comments">2 Comments</a><span class="ae-kappa ae-u-bold blog-meta__date">August, 04 2015</span><a href="#0" class="arrow-button blog-meta__read-more">Read More<span class="arrow-cont">
                   <svg>
                     <use xlink:href="assets/img/symbols.svg#arrow"></use>
                   </svg></span></a></div>
@@ -233,18 +235,18 @@
           <div class="rk-blog__item">
             <div class="post-img post-4 rk-landscape-alt rk-tosquare">
               <div class="item-meta">
-                <p><a href="blog-post.html" class="arrow-button">Read More<span class="arrow-cont">
+                <p><a href="blog-post" class="arrow-button">Read More<span class="arrow-cont">
                       <svg>
                         <use xlink:href="assets/img/symbols.svg#arrow"></use>
                       </svg></span></a></p>
               </div>
             </div>
             <div class="blog-info">
-              <h2 class="blog-info__title"> <a href="blog-post.html">Only Images</a></h2>
-              <h5 class="blog-info__author">By <a href="blog-post.html" class="ae-u-bolder">Pixeden</a></h5>
+              <h2 class="blog-info__title"> <a href="blog-post">Only Images</a></h2>
+              <h5 class="blog-info__author">By <a href="blog-post" class="ae-u-bolder">Pixeden</a></h5>
               <p class="blog-info__excerpt"></p>
             </div>
-            <div class="blog-meta"><a href="blog-post.html" class="ae-u-bolder blog-meta__comments">No Comment</a><span class="ae-kappa ae-u-bold blog-meta__date">August, 01 2015</span><a href="#0" class="arrow-button blog-meta__read-more">Read More<span class="arrow-cont">
+            <div class="blog-meta"><a href="blog-post" class="ae-u-bolder blog-meta__comments">No Comment</a><span class="ae-kappa ae-u-bold blog-meta__date">August, 01 2015</span><a href="#0" class="arrow-button blog-meta__read-more">Read More<span class="arrow-cont">
                   <svg>
                     <use xlink:href="assets/img/symbols.svg#arrow"></use>
                   </svg></span></a></div>
@@ -252,18 +254,18 @@
           <div class="rk-blog__item">
             <div class="post-img post-9 rk-landscape-alt rk-toportrait">
               <div class="item-meta">
-                <p><a href="blog-post.html" class="arrow-button">Read More<span class="arrow-cont">
+                <p><a href="blog-post" class="arrow-button">Read More<span class="arrow-cont">
                       <svg>
                         <use xlink:href="assets/img/symbols.svg#arrow"></use>
                       </svg></span></a></p>
               </div>
             </div>
             <div class="blog-info">
-              <h2 class="blog-info__title"> <a href="blog-post.html">Share the love around</a></h2>
-              <h5 class="blog-info__author">By <a href="blog-post.html" class="ae-u-bolder">Pixeden</a></h5>
+              <h2 class="blog-info__title"> <a href="blog-post">Share the love around</a></h2>
+              <h5 class="blog-info__author">By <a href="blog-post" class="ae-u-bolder">Pixeden</a></h5>
               <p class="blog-info__excerpt">Modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam</p>
             </div>
-            <div class="blog-meta"><a href="blog-post.html" class="ae-u-bolder blog-meta__comments">1 Comment</a><span class="ae-kappa ae-u-bold blog-meta__date">August, 01 2015</span><a href="#0" class="arrow-button blog-meta__read-more">Read More<span class="arrow-cont">
+            <div class="blog-meta"><a href="blog-post" class="ae-u-bolder blog-meta__comments">1 Comment</a><span class="ae-kappa ae-u-bold blog-meta__date">August, 01 2015</span><a href="#0" class="arrow-button blog-meta__read-more">Read More<span class="arrow-cont">
                   <svg>
                     <use xlink:href="assets/img/symbols.svg#arrow"></use>
                   </svg></span></a></div>
@@ -281,11 +283,11 @@
       <div class="ae-grid ae-grid--collapse">
         <div class="ae-grid__item item-lg-4 au-xs-ta-center au-lg-ta-left">
           <ul class="rk-menu rk-footer-menu">
-            <li class="rk-menu__item"><a href="about.html" class="rk-menu__link">About</a>
+            <li class="rk-menu__item"><a href="about" class="rk-menu__link">About</a>
             </li>
-            <li class="rk-menu__item"><a href="documentation.html" class="rk-menu__link">Docs</a>
+            <li class="rk-menu__item"><a href="documentation" class="rk-menu__link">Docs</a>
             </li>
-            <li class="rk-menu__item"><a href="contact.html" class="rk-menu__link">Contact</a>
+            <li class="rk-menu__item"><a href="contact" class="rk-menu__link">Contact</a>
             </li>
           </ul>
           <p class="rk-footer__text rk-footer__copy "> <span class="ae-u-bold">© </span><span class="ae-u-bolder">2015 URKU PORTFOLIO </span>All Right Reserved.</p>

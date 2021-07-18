@@ -181,7 +181,7 @@
             <li class="rk-menu__item"><a href="contact" class="rk-menu__link">Contact</a>
             </li>
           </ul>
-          <p class="rk-footer__text rk-footer__copy "> <span class="ae-u-bold">�짤 </span><span class="ae-u-bolder">2015 URKU PORTFOLIO </span>All Right Reserved.</p>
+          <p class="rk-footer__text rk-footer__copy "> <span class="ae-u-bold">Â© </span><span class="ae-u-bolder">2015 URKU PORTFOLIO </span>All Right Reserved.</p>
         </div>
         <div class="ae-grid__item item-lg-4 au-xs-ta-center"><a href="#0" class="rk-social-btn ">
             <svg>
