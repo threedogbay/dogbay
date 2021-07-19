@@ -1,148 +1,324 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="UTF-8">
-    <title>Urku Portfolio :: Pixeden</title>
-    <link rel="icon" type="image/svg+xml" href="assets/img/urku-ico.svg">
-    <link rel="stylesheet" href="assets/css/aurora-pack.min.css">
-    <link rel="stylesheet" href="assets/css/aurora-theme-base.min.css">
-    <link rel="stylesheet" href="assets/css/urku.css">
-  </head>
-  <body class="top-fixed">
-    <header class="ae-container-fluid ae-container-fluid--full rk-header ">
-      <input type="checkbox" id="mobile-menu" class="rk-mobile-menu">
-      <label for="mobile-menu">
-        <svg>
-          <use xlink:href="assets/img/symbols.svg#bar"></use>
-        </svg>
-        <svg>
-          <use xlink:href="assets/img/symbols.svg#bar"></use>
-        </svg>
-        <svg>
-          <use xlink:href="assets/img/symbols.svg#bar"></use>
-        </svg>
-      </label>
-      <div class="ae-container-fluid rk-topbar">
-        <h1 class="rk-logo"><a href="index">urku portfolio<sup>tm</sup></a></h1>
-        <nav class="rk-navigation">
-          <ul class="rk-menu">
-            <li class="rk-menu__item"><a href="index" class="rk-menu__link">Home</a>
-            </li>
-            <li class="rk-menu__item"><a href="portfolio" class="rk-menu__link">Portfolio</a>
-              <nav class="rk-menu__sub">
-                <ul class="rk-container">
-                  <li class="rk-menu__item"><a href="portfolio" class="rk-menu__link">Flex</a></li>
-                  <li class="rk-menu__item"><a href="portfolio-alt" class="rk-menu__link">Switch</a></li>
-                  <li class="rk-menu__item"><a href="portfolio-raw" class="rk-menu__link">Static</a></li>
-                  <li class="rk-menu__item"><a href="portfolio-masonry" class="rk-menu__link">Masonry</a></li>
-                </ul>
-              </nav>
-            </li>
-            <li class="rk-menu__item"><a href="blog" class="rk-menu__link">Blog</a>
-            </li>
-            <li class="active rk-menu__item"><a href="#0" class="rk-menu__link">Pages</a>
-              <nav class="rk-menu__sub">
-                <ul class="rk-container">
-                  <li class="rk-menu__item"><a href="about" class="rk-menu__link">About</a></li>
-                  <li class="rk-menu__item"><a href="documentation" class="rk-menu__link">Documentation</a></li>
-                  <li class="rk-menu__item"><a href="design-styles" class="rk-menu__link">Design Styles</a></li>
-                </ul>
-              </nav>
-            </li>
-            <li class="rk-menu__item"><a href="contact" class="rk-menu__link">Contact Us</a>
-            </li>
-          </ul>
-          <form class="rk-search">
-            <input type="text" placeholder="Search" id="urku-search" class="rk-search-field">
-            <label for="urku-search">
-              <svg>
-                <use xlink:href="assets/img/symbols.svg#icon-search"></use>
-              </svg>
-            </label>
-          </form>
-        </nav>
-      </div>
-    </header>
-    <div class="ae-container-fluid ae-container-fluid--inner rk-main">
-      <div class="ae-grid au-xs-ta-center au-mb-4">
-        <div class="ae-grid__item item-lg-4 ae-kappa au-mb-3"><img src="assets/img/team-1.jpg" alt="" class="au-mb-3">
-          <h5 class="ae-u-bolder au-mt-2">Robert T. Williams</h5>
-          <p class="ae-u-bolder au-mb-3">Graphic Designer</p>
-          <p class="au-lg-ta-left au-mb-3 au-pl-4 au-pr-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p><a href="#0" class="ae-u-bolder au-underline">@robertwilliams</a>
+<!doctype html>
+<html class="no-js" lang="zxx">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Watch shop | eCommers</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+
+    <!-- CSS here -->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+        <link rel="stylesheet" href="assets/css/flaticon.css">
+        <link rel="stylesheet" href="assets/css/slicknav.css">
+        <link rel="stylesheet" href="assets/css/animate.min.css">
+        <link rel="stylesheet" href="assets/css/magnific-popup.css">
+        <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+        <link rel="stylesheet" href="assets/css/themify-icons.css">
+        <link rel="stylesheet" href="assets/css/slick.css">
+        <link rel="stylesheet" href="assets/css/nice-select.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!--? Preloader Start -->
+    <div id="preloader-active">
+        <div class="preloader d-flex align-items-center justify-content-center">
+            <div class="preloader-inner position-relative">
+                <div class="preloader-circle"></div>
+                <div class="preloader-img pere-text">
+                    <img src="assets/img/logo/logo.png" alt="">
+                </div>
+            </div>
         </div>
-        <div class="ae-grid__item item-lg-4 ae-kappa au-mb-3"><img src="assets/img/team-2.jpg" alt="" class="au-mb-3">
-          <h5 class="ae-u-bolder au-mt-2">Angelina B. Widow</h5>
-          <p class="ae-u-bolder au-mb-3">Founder / CEO</p>
-          <p class="au-lg-ta-left au-mb-3 au-pl-4 au-pr-4">Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.</p><a href="#0" class="ae-u-bolder au-underline">@angelinawidow</a>
-        </div>
-        <div class="ae-grid__item item-lg-4 ae-kappa au-mb-3"><img src="assets/img/team-3.jpg" alt="" class="au-mb-3">
-          <h5 class="ae-u-bolder au-mt-2">Patrick Anderson</h5>
-          <p class="ae-u-bolder au-mb-3">Art Director</p>
-          <p class="au-lg-ta-left au-mb-3 au-pl-4 au-pr-4">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><a href="#0" class="ae-u-bolder au-underline">@patrickanderson</a>
-        </div>
-      </div>
-      <div class="ae-grid au-pt-2">
-        <div class="ae-grid__item item-lg-8 item-lg--offset-2">
-          <h4 class="ae-u-bolder">Title example</h4>
-          <p>Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur.</p>
-        </div>
-      </div>
-      <div class="ae-grid ae-grid--alt au-xs-ptp-1">
-        <div class="ae-grid__item--alt item-lg-4">
-          <h6 class="ae-u-boldest">About Us</h6>
-          <p class="au-lh-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-        </div>
-        <div class="ae-grid__item--alt item-lg-4">
-          <h6 class="ae-u-boldest">Our Mission</h6>
-          <p class="au-lh-3">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </div>
-        <div class="ae-grid__item--alt item-lg-4">
-          <h6 class="ae-u-boldest">Our Clients</h6>
-          <p class="au-lh-3">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
-          <p class="au-lh-3">Nemo enim ipsam voluptatem quia voluptas</p>
-        </div>
-      </div>
-      <p class="au-flex au-pt-4 group-buttons"><a href="portfolio" class="au-mt-4 arrow-button arrow-button--right arrow-button--out">View Our Portfolio<span class="arrow-cont">
-            <svg>
-              <use xlink:href="assets/img/symbols.svg#arrow"></use>
-            </svg></span></a></p>
     </div>
-    <footer class="ae-container-fluid rk-footer ">
-      <div class="ae-grid ae-grid--collapse">
-        <div class="ae-grid__item item-lg-4 au-xs-ta-center au-lg-ta-left">
-          <ul class="rk-menu rk-footer-menu">
-            <li class="rk-menu__item"><a href="about" class="rk-menu__link">About</a>
-            </li>
-            <li class="rk-menu__item"><a href="documentation" class="rk-menu__link">Docs</a>
-            </li>
-            <li class="rk-menu__item"><a href="contact" class="rk-menu__link">Contact</a>
-            </li>
-          </ul>
-          <p class="rk-footer__text rk-footer__copy "> <span class="ae-u-bold">© </span><span class="ae-u-bolder">2015 URKU PORTFOLIO </span>All Right Reserved.</p>
+    <!-- Preloader Start -->
+    <header>
+        <!-- Header Start -->
+        <div class="header-area">
+            <div class="main-header header-sticky">
+                <div class="container-fluid">
+                    <div class="menu-wrapper">
+                        <!-- Logo -->
+                        <div class="logo">
+                            <a href="index"><img src="assets/img/logo/logo.png" alt=""></a>
+                        </div>
+                        <!-- Main-menu -->
+                        <div class="main-menu d-none d-lg-block">
+                            <nav>                                                
+                                <ul id="navigation">  
+                                    <li><a href="index">Home</a></li>
+                                    <li><a href="shop">shop</a></li>
+                                    <li><a href="about">about</a></li>
+                                    <li class="hot"><a href="#">Latest</a>
+                                        <ul class="submenu">
+                                            <li><a href="shop"> Product list</a></li>
+                                            <li><a href="product_details"> Product Details</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="blog">Blog</a>
+                                        <ul class="submenu">
+                                            <li><a href="blog">Blog</a></li>
+                                            <li><a href="blog-details">Blog Details</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Pages</a>
+                                        <ul class="submenu">
+                                            <li><a href="login">Login</a></li>
+                                            <li><a href="cart">Cart</a></li>
+                                            <li><a href="elements">Element</a></li>
+                                            <li><a href="confirmation">Confirmation</a></li>
+                                            <li><a href="checkout">Product Checkout</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="contact">Contact</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <!-- Header Right -->
+                        <div class="header-right">
+                            <ul>
+                                <li>
+                                    <div class="nav-search search-switch">
+                                        <span class="flaticon-search"></span>
+                                    </div>
+                                </li>
+                                <li> <a href="login"><span class="flaticon-user"></span></a></li>
+                                <li><a href="cart"><span class="flaticon-shopping-cart"></span></a> </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Mobile Menu -->
+                    <div class="col-12">
+                        <div class="mobile_menu d-block d-lg-none"></div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="ae-grid__item item-lg-4 au-xs-ta-center"><a href="#0" class="rk-social-btn ">
-            <svg>
-              <use xlink:href="assets/img/symbols.svg#icon-facebook"></use>
-            </svg></a><a href="#0" class="rk-social-btn ">
-            <svg>
-              <use xlink:href="assets/img/symbols.svg#icon-twitter"></use>
-            </svg></a><a href="#0" class="rk-social-btn ">
-            <svg>
-              <use xlink:href="assets/img/symbols.svg#icon-pinterest"></use>
-            </svg></a><a href="#0" class="rk-social-btn ">
-            <svg>
-              <use xlink:href="assets/img/symbols.svg#icon-tumblr"></use>
-            </svg></a></div>
-        <div class="ae-grid__item item-lg-4 au-xs-ta-center au-lg-ta-right">
-          <p class="rk-footer__text rk-footer__contact "> <span class="ae-u-bold">Email: </span><span class="ae-u-bolder"> <a href="#0" class="rk-dark-color ">contact@urkuportfolio.com </a></span></p>
-          <p class="rk-footer__text rk-footer__by">Theme by <a href="http://pixeden.com" class="ae-u-bolder">Pixeden.</a></p>
+        <!-- Header End -->
+    </header>
+    <main>
+        <!-- Hero Area Start-->
+        <div class="slider-area ">
+            <div class="single-slider slider-height2 d-flex align-items-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <div class="hero-cap text-center">
+                                <h2>About Us</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
+        <!-- Hero Area End-->
+        <!-- About Details Start -->
+        <div class="about-details section-padding30">
+            <div class="container">
+                <div class="row">
+                    <div class="offset-xl-1 col-lg-8">
+                        <div class="about-details-cap mb-50">
+                            <h4>Our Mission</h4>
+                            <p>Consectetur adipiscing elit, sued do eiusmod tempor ididunt udfgt labore et dolore magna aliqua. Quis ipsum suspendisces gravida. Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan lacus. Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan lacus.
+                            </p>
+                            <p> Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan lacus. Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan.</p>
+                        </div>
+
+                        <div class="about-details-cap mb-50">
+                            <h4>Our Vision</h4>
+                            <p>Consectetur adipiscing elit, sued do eiusmod tempor ididunt udfgt labore et dolore magna aliqua. Quis ipsum suspendisces gravida. Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan lacus. Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan lacus.
+                            </p>
+                            <p> Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan lacus. Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About Details End -->
+        <!--? Video Area Start -->
+        <div class="video-area mb-100">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-lg-12">
+                    <div class="video-wrap">
+                        <div class="play-btn "><a class="popup-video" href="https://www.youtube.com/watch?v=KMc6DyEJp04"><i class="fas fa-play"></i></a></div>
+                    </div>
+                    </div>
+                </div>
+                <!-- Arrow -->
+                <div class="thumb-content-box">
+                    <div class="thumb-content">
+                        <h3>Next Video</h3>
+                        <a href="#"> <i class="flaticon-arrow"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Video Area End -->
+        <!--? Shop Method Start-->
+        <div class="shop-method-area">
+            <div class="container">
+                <div class="method-wrapper">
+                    <div class="row d-flex justify-content-between">
+                        <div class="col-xl-4 col-lg-4 col-md-6">
+                            <div class="single-method mb-40">
+                                <i class="ti-package"></i>
+                                <h6>Free Shipping Method</h6>
+                                <p>aorem ixpsacdolor sit ameasecur adipisicing elitsf edasd.</p>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6">
+                            <div class="single-method mb-40">
+                                <i class="ti-unlock"></i>
+                                <h6>Secure Payment System</h6>
+                                <p>aorem ixpsacdolor sit ameasecur adipisicing elitsf edasd.</p>
+                            </div>
+                        </div> 
+                        <div class="col-xl-4 col-lg-4 col-md-6">
+                            <div class="single-method mb-40">
+                                <i class="ti-reload"></i>
+                                <h6>Secure Payment System</h6>
+                                <p>aorem ixpsacdolor sit ameasecur adipisicing elitsf edasd.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Shop Method End-->
+    </main>
+    <footer>
+        <!-- Footer Start-->
+        <div class="footer-area footer-padding">
+            <div class="container">
+                <div class="row d-flex justify-content-between">
+                    <div class="col-xl-3 col-lg-3 col-md-5 col-sm-6">
+                        <div class="single-footer-caption mb-50">
+                            <div class="single-footer-caption mb-30">
+                                <!-- logo -->
+                                <div class="footer-logo">
+                                    <a href="index.jsp"><img src="assets/img/logo/logo2_footer.png" alt=""></a>
+                                </div>
+                                <div class="footer-tittle">
+                                    <div class="footer-pera">
+                                        <p>Asorem ipsum adipolor sdit amet, consectetur adipisicing elitcf sed do eiusmod tem.</p>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-3 col-sm-5">
+                        <div class="single-footer-caption mb-50">
+                            <div class="footer-tittle">
+                                <h4>Quick Links</h4>
+                                <ul>
+                                    <li><a href="#">About</a></li>
+                                    <li><a href="#"> Offers & Discounts</a></li>
+                                    <li><a href="#"> Get Coupon</a></li>
+                                    <li><a href="#">  Contact Us</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-7">
+                        <div class="single-footer-caption mb-50">
+                            <div class="footer-tittle">
+                                <h4>New Products</h4>
+                                <ul>
+                                    <li><a href="#">Woman Cloth</a></li>
+                                    <li><a href="#">Fashion Accessories</a></li>
+                                    <li><a href="#"> Man Accessories</a></li>
+                                    <li><a href="#"> Rubber made Toys</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-5 col-sm-7">
+                        <div class="single-footer-caption mb-50">
+                            <div class="footer-tittle">
+                                <h4>Support</h4>
+                                <ul>
+                                    <li><a href="#">Frequently Asked Questions</a></li>
+                                    <li><a href="#">Terms & Conditions</a></li>
+                                    <li><a href="#">Privacy Policy</a></li>
+                                    <li><a href="#">Report a Payment Issue</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Footer bottom -->
+                <div class="row align-items-center">
+                    <div class="col-xl-7 col-lg-8 col-md-7">
+                        <div class="footer-copy-right">
+                            <p>Copyright ©2020 All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i>  by <a href="https://colorlib.com/">Colorlib</a></p>                   
+                        </div>
+                    </div>
+                    <div class="col-xl-5 col-lg-4 col-md-5">
+                        <div class="footer-copy-right f-right">
+                            <!-- social -->
+                            <div class="footer-social">
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="https://www.facebook.com/sai4ull"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-behance"></i></a>
+                                <a href="#"><i class="fas fa-globe"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End-->
     </footer>
-    <script src="assets/js/svg4everybody.min.js"></script>
-    <script>svg4everybody();</script>
-  </body>
+    <!--? Search model Begin -->
+    <div class="search-model-box">
+        <div class="h-100 d-flex align-items-center justify-content-center">
+            <div class="search-close-btn">+</div>
+            <form class="search-model-form">
+                <input type="text" id="search-input" placeholder="Searching key.....">
+            </form>
+        </div>
+    </div>
+    <!-- Search model end -->
+
+    <!-- JS here -->
+
+    <script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
+    <!-- Jquery, Popper, Bootstrap -->
+    <script src="./assets/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="./assets/js/popper.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <!-- Jquery Mobile Menu -->
+    <script src="./assets/js/jquery.slicknav.min.js"></script>
+
+    <!-- Jquery Slick , Owl-Carousel Plugins -->
+    <script src="./assets/js/owl.carousel.min.js"></script>
+    <script src="./assets/js/slick.min.js"></script>
+
+    <!-- One Page, Animated-HeadLin -->
+    <script src="./assets/js/wow.min.js"></script>
+    <script src="./assets/js/animated.headline.js"></script>
+    <script src="./assets/js/jquery.magnific-popup.js"></script>
+
+    <!-- Scrollup, nice-select, sticky -->
+    <script src="./assets/js/jquery.scrollUp.min.js"></script>
+    <script src="./assets/js/jquery.nice-select.min.js"></script>
+    <script src="./assets/js/jquery.sticky.js"></script>
+    
+    <!-- contact js -->
+    <script src="./assets/js/contact.js"></script>
+    <script src="./assets/js/jquery.form.js"></script>
+    <script src="./assets/js/jquery.validate.min.js"></script>
+    <script src="./assets/js/mail-script.js"></script>
+    <script src="./assets/js/jquery.ajaxchimp.min.js"></script>
+    
+    <!-- Jquery Plugins, main Jquery -->	
+    <script src="./assets/js/plugins.js"></script>
+    <script src="./assets/js/main.js"></script>
+
+</body>
 </html>
