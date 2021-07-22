@@ -30,18 +30,17 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter { //WebSecurity
     @Override
     protected void configure(HttpSecurity http) throws Exception { // WebSecurityConfigurerAdapter를 상속받으면 오버라이드 가능
 	    http.authorizeRequests() // 접근에 대한 인증 설정이 가능합니다.
-	    		// 페이지 권한 설정
-	            .antMatchers("/admin/**").hasRole("ADMIN")// permitAll() 누구나 접근 허용
-	            .antMatchers("/user/myinfo").hasRole("USER") //인증되지 않은, 로그인이 되지 않은 사용자만 접근 가능
+	    		// 페이지 권한 설정// permitAll() 누구나 접근 허용
+	            .antMatchers("/views").hasRole("USER") //인증되지 않은, 로그인이 되지 않은 사용자만 접근 가능
 				.anyRequest().authenticated()                // 나머지 요청들은 권한의 종류에 상관 없이 권한이 있어야 접근 가능 authenticated() : 권한이 있으면 무조건 접근 가능
 												             // hasRole(user or admin) : 특정 권한이 있는 사람만 접근 가능
 			.and() // 로그인 설정
 	          .formLogin()// 로그인에 관한 설정을 의미 로그인 성공시 '/'로 리다이렉트
-	          .loginPage("/user/login")
+	          .loginPage("/views/login")
 	          .permitAll()
 	        .and() //로그 아웃 설정
 	          .logout()
-	          .logoutRequestMatcher(new AntPathRequestMatcher("/user/logout"))
+	          .logoutRequestMatcher(new AntPathRequestMatcher("/views/logout"))
 	          .logoutSuccessUrl("/user/logout/result")
 	          .invalidateHttpSession(true)
 	        .and()
@@ -53,7 +52,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter { //WebSecurity
     
     @Override
     public void configure(AuthenticationManagerBuilder auth) throws Exception {
-		auth.userDetailsService().passwordEncoder(new BCryptPasswordEncoder());
+		//auth.userDetailsService().passwordEncoder(new BCryptPasswordEncoder());
 	}
     //Authentication 로그인(ex> 접속 아이디가 맞는지 "인증")
     //Authorization 권한 (ex> 해당 게시물 및 페이지에 접근할 수 있는 "권한")
